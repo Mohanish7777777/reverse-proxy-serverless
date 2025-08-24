@@ -9,7 +9,7 @@
 </p>
 
 ## GitHub Repository Structure
-```
+```bash
 proxy-worker/
 ├── src/
 │   ├── config.ts
@@ -23,7 +23,7 @@ proxy-worker/
 ```
 
 ## Documentation (README.md)
-```markdown
+
 # Cloudflare Worker Proxy
 
 A configurable reverse proxy worker that handles HTML transformation, ad-blocking, and host rewriting.
@@ -41,7 +41,7 @@ A configurable reverse proxy worker that handles HTML transformation, ad-blockin
 ### Environment Variables
 Set these in your `wrangler.toml`:
 
-```toml
+```
 [vars]
 BASE = "https://example.com"  # Default upstream host
 FEATURE_FLAGS = "AD_BLOCKER,TEXT_REPLACER,ON_DEMAND_HOST_CONFIG"
