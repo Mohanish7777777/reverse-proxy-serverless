@@ -110,7 +110,7 @@ The ad blocker allows scripts from these CDNs:
 - unpkg.com
 - jquery.com
 - gravatar.com
-```
+
 
 ## Additional Files
 
