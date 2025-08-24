@@ -1,0 +1,6 @@
+name = "proxy-worker"
+compatibility_date = "2023-05-18"
+
+[vars]
+BASE = "https://example.com"
+FEATURE_FLAGS = "AD_BLOCKER,TEXT_REPLACER"
